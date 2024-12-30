@@ -7,33 +7,43 @@
         <meta name="description" content />
         <meta name="author" content />
         <title>Certificate</title>
-        <!-- Favicon-->
+        <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet" />
-        <!-- Bootstrap icons-->
+        <!-- Bootstrap Icons -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
             rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Core Theme CSS (includes Bootstrap) -->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+        .certificate-card {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        .certificate-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
-            <!-- Navigation-->
+            <!-- Navigation -->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"><span
-                            class="navbar-toggler-icon"></span></button>
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse"
                         id="navbarSupportedContent">
                         <ul
@@ -52,50 +62,46 @@
                     </div>
                 </div>
             </nav>
-   <!-- Certificate card 1 -->
-  <section class="py-5 d-flex justify-content-center align-items-center">
-    <div class="container px-5 mb-5 text-center">
-                                            <h1 class="display-5 fw-bolder mb-0">
-                                                <span class="text-dark text-muted d-inline">Certificate</span>
-                                            </h1>
-                                        </div>
-                                    </section>
-                                    
-                                            <!-- Certificate card 1 -->
-                                            <div class="card border-0"
-                                                style="width: 30rem; background: none; margin: 0 auto;">
-                                                <img
-                                                    class="card-img-top mx-auto d-block"
-                                                    src="assets/sertifikat1.jpg"
-                                 alt="Sertifikat"
-                                                    style="width: auto; height: auto; max-width: 100%; max-height: 300px;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
 
-                        </div>
+            <!-- Certificate Section -->
+            <section class="py-5">
+                <div class="container px-5 mb-5 text-center">
+                    <h1 class="display-5 fw-bolder mb-0">
+                        <span
+                            class="text-dark text-muted d-inline">Certificate</span>
+                    </h1>
+                </div>
+
+                <div
+                    class="container d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="background: none;">
+                        <img
+                            class="certificate-card mx-auto d-block img-fluid"
+                            src="assets/sertifikat1.jpg"
+                            alt="Sertifikat"
+                            style="max-height: 400px;" />
                     </div>
                 </div>
             </section>
-
         </main>
-        <!-- Footer-->
+
+        <!-- Footer -->
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div
                     class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div
-                            class="small m-0">Copyright
-                            &copy; My Portofolio</div></div>
+                    <div class="col-auto">
+                        <div class="small m-0">Copyright &copy; My
+                            Portfolio</div>
+                    </div>
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
+
+        <!-- Bootstrap core JS -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        <!-- Core theme JS -->
         <script src="js/scripts.js"></script>
     </body>
 </html>
